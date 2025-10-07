@@ -1,28 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jass Sangale Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jass Sangale Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Jass Sangale</h1>
-        <nav>
-            <a href="index.html">About Me</a>
-            <a href="articles.html">Articles</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#articles">Articles</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, I am Jass Sangale, a Cyber Security student. This portfolio showcases my articles, projects, and skills.</p>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Hi, I’m Jass Sangale</h1>
+    <p>Cyber Security Student | Data Enthusiast | Aspiring Software Developer</p>
+    <img src="profile.jpg" alt="Jass Sangale" class="profile-img">
+  </section>
 
-    <footer>
-        <p>&copy; 2025 Jass Sangale</p>
-    </footer>
+  <!-- About Me -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am a Cyber Security student with a passion for data analysis, coding, and creating innovative solutions. This portfolio showcases my articles, projects, and achievements.</p>
+  </section>
+
+  <!-- Articles -->
+  <section id="articles" class="section">
+    <h2>Articles</h2>
+    <div class="articles-container">
+      <div class="card">
+        <h3>Finite Automata in Text Search</h3>
+        <p>A detailed article on applications of Finite Automata in computer science.</p>
+        <a href="https://github.com/JassSangale/DiscreteStructuresArticles/blob/main/FiniteAutomata_TextSearch.md" target="_blank">Read Article</a>
+      </div>
+      <div class="card">
+        <h3>Creating a Google Website Portfolio</h3>
+        <p>Step-by-step guide on building your own professional website portfolio.</p>
+        <a href="https://github.com/JassSangale/my-portfolio/blob/main/GooglePortfolioArticle.md" target="_blank">Read Article</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: jass04sangle@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/jasssangale" target="_blank"><i class="fab fa-linkedin"></i> Jass Sangale</a></p>
+    <p>GitHub: <a href="https://github.com/JassSangale" target="_blank"><i class="fab fa-github"></i> JassSangale</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jass Sangale</p>
+  </footer>
 </body>
 </html>
